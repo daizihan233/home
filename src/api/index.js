@@ -70,6 +70,6 @@ export const getWeather = async (key, city) => {
 // 获取教书先生天气 API
 // https://class.khbit.cn/api/weather
 export const getOtherWeather = async () => {
-  const res = await fetch("https://class.khbit.cn/api/weather");
+  const res = await fetch("https://class.khbit.cn/api/weather/");
   return await res.json();
 };
